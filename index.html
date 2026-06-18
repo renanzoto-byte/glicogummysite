@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlicoGummy</title>
+    <link rel="icon" href="images/fotoglicogummy.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loading" id="carregando">
+        <div class="logo">
+            <img src="images/fotoglicogummy.png" width="300px">
+        </div>
+        <div class="animation">
+            <span class="ballanimation" id="ballone"></span>
+            <span class="ballanimation" id="balltwo"></span>
+            <span class="ballanimation" id="ballthree"></span>
+        </div>
+    </div>
+    <div class="initialscreen" id="initialScreen">
+        <div class="opacitydiv" id="opacitydiv">
+            <div class="initialapplout" id="initialapplout">
+                <div class="initialambient" id="initialambient">
+                    <h1 id="welcomenew">Bem-vindo novamente!</h1>
+                    <div id="buttonDiv">
+                        <button id="buttonDiv2">
+                            Continuar com o Google
+                        </button>
+                    </div>
+                    <div class="divlogin" id="divlogin">
+                        <h2>Entrar</h2>
+                        <input type="text" placeholder="Usuário">
+                        <input type="password" placeholder="Senha">
+                        <button id="btEntrar">
+                            Login
+                        </button>
+                        <a id="cadaslink">É novo? Cadastre-se agora!</a>
+                    </div>
+                    <img id="ursinhogirante" src="images/ChatGPT Image 23_05_2026, 19_20_37.png" width="100px">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="content" id="content">
+            <img src="images/ChatGPT Image 9_04_2026, 01_15_11.png" width="943px">
+        </div>
+        <div class="areacontent">
+            <div class="logoarea" id="areacontent">
+                <img src="images/variation1.png" width="250px">
+                <div class="login">
+                    <h1>Seja bem-vindo(a)!</h1>
+                    <button id="btClick">Começar!</button>
+                </div>
+            </div>
+            <div id="loadermother">
+                <div class="loader"></div>
+            </div>
+        </div>
+    </div>
+    <div class="conteudoanterior" id="preconteudo">
+        <div class="ursinhos" id="ursinhosgummy">
+            <div class="animacaologo">
+                <div class="logoanimation" id="logoanimation">
+                    <img id="imagemlogo" src="images/variation1.png" width="250px">
+                    <h1 id="tittlesugar">Por uma vida mais doce!</h1>
+                    <button id="advance" onclick="mostrarfundo()">Avançar
+
+                    </button>
+                </div>
+            </div>
+            <img id="ursinho1" src="images/ChatGPT Image 23_05_2026, 19_12_03.png" width="500px">
+            <img id="ursinho2" src="images/ChatGPT Image 23_05_2026, 19_20_37.png" width="350px">
+            <img id="ursinho3" src="images/ChatGPT Image 23_05_2026, 19_15_07.png" width="400px">
+            <img id="ursinho4" src="images/ChatGPT Image 23_05_2026, 20_45_59.png" width="700px">
+            <img id="ursinho5" src="images/Gemini_Generated_Image_bvcjoebvcjoebvcj.png" width="650px">
+        </div>
+    </div>
+    <div class="bigforms" id="bigforms">
+       <h1>Para acessar nosso site de gummies, preencha o formulário:</h1>
+       <p class="questions">1. Você já foi diagnosticado por um médico como portador de diabetes?</p>
+        <div class="checks">
+            <input type="radio" name="q1" value="Sim"><p class="answer">Sim</p>
+            <input type="radio" name="q1" value="Não"><p class="answer">Não</p>
+        </div>
+       <p class="questions">2. Qual é o seu tipo de diabetes diagnosticado?</p>
+       <div class="checks">
+            <input type="radio" name="q2" value="Tipo 1"><p class="answer">Tipo 1</p>
+            <input type="radio" name="q2" value="Tipo 2"><p class="answer">Tipo 2</p>
+            <input type="radio" name="q2" value="Pré-diabetes"><p class="answer">Pré-diabetes</p>
+        </div>    
+       <p class="questions">3. Com que frequência você costuma monitorar seus níveis de glicose no sangue (ex: em jejum, após as refeições)?</p>
+        <div class="checks">
+            <input type="radio" name="q3" value="Muitas vezes"><p class="answer">Muitas vezes</p>
+            <input type="radio" name="q3" value="Algumas vezes"><p class="answer">Algumas vezes</p>
+            <input type="radio" name="q3" value="Poucas vezes"><p class="answer">Poucas vezes</p>
+        </div>  
+       <p class="questions">4. Você possui acompanhamento regular com um médico (endocrinologista ou clínico geral) para tratar sua diabetes?</p>
+        <div class="checks">
+            <input type="radio" name="q4" value="Sim"><p class="answer">Sim</p>
+            <input type="radio" name="q4" value="Não"><p class="answer">Não</p>
+        </div>  
+       <p class="questions">5. Você faz acompanhamento com um nutricionista para alinhar sua dieta com sua condição?</p>
+        <div class="checks">
+            <input type="radio" name="q5" value="Sim"><p class="answer">Sim</p>
+            <input type="radio" name="q5" value="Não"><p class="answer">Não</p>
+        </div>  
+       <p class="questions">6. Você já conversou com seu médico ou nutricionista sobre a possibilidade de consumir suplementos ou gomas específicas para diabéticos?</p>
+        <div class="checks">
+            <input type="radio" name="q6" value="Sim"><p class="answer">Sim</p>
+            <input type="radio" name="q6" value="Não"><p class="answer">Não</p>
+        </div>  
+       <p class="questions">7. Você faz uso diário de medicamentos orais ou insulina receitados para o controle da glicemia?</p>
+        <div class="checks">
+            <input type="radio" name="q7" value="Sim"><p class="answer">Sim</p>
+            <input type="radio" name="q7" value="Não"><p class="answer">Não</p>
+        </div>
+        <p class="questions">8. Você sabe como ajustar a sua medicação atual caso ocorram oscilações (picos ou quedas) na sua taxa de açúcar?</p>
+        <div class="checks">
+            <input type="radio" name="q8" value="Sim"><p class="answer">Sim</p>
+            <input type="radio" name="q8" value="Ainda não sei bem"><p class="answer">Ainda não sei bem</p>
+        </div>
+        <p class="questions">9. No caso de gomas de rápida absorção, você foi orientado sobre a quantidade adequada a consumir para evitar episódios de hipoglicemia?</p>
+        <div class="checks">
+            <input type="radio" name="q9" value="Sim"><p class="answer">Sim</p>
+            <input type="radio" name="q9" value="Não"><p class="answer">Não exatamente</p>
+        </div>
+        <p class="questions">10. Você compreende que essas gomas atuam apenas como um suporte para o seu tratamento e não substituem os medicamentos prescritos?</p>
+        <div class="checks">
+            <input type="radio" name="q10" value="Sim"><p class="answer">Sim</p>
+            <input type="radio" name="q10" value="Não"><p class="answer">Não</p>
+        </div>
+        <p class="questions">11. Você está ciente de que o consumo excessivo ou sem orientação pode gerar alterações inesperadas na sua glicemia?</p>
+        <div class="checks">
+            <input type="radio" name="q11" value="Sim"><p class="answer">Sim</p>
+            <input type="radio" name="q11" value="Não"><p class="answer">Não</p>
+        </div>
+        <p class="questions">12. Você sabe que é fundamental consultar seu médico sempre que houver mudanças na frequência ou intensidade dos seus sintomas e taxas?</p>
+        <div class="checks">
+            <input type="radio" name="q12" value="Sim"><p class="answer">Sim</p>
+            <input type="radio" name="q12" value="Não exatamente"><p class="answer">Não exatamente</p>
+        </div>
+        <button id="submitbt">Avançar</button>
+        <p class="alert" id="alert">Por favor, preencha todos os campos</p>
+    </div>
+
+    <div class="bigforms2" id="bigforms2">
+        <div class="formslasttext" id="formstext">
+            <h1>Política de privacidade, termos de uso e ajuste de expectativas</h1>
+            <p>Caro usuário,</p>
+            <p id="dinamicp"></p>
+            <h2>Termos de uso e condições de navegação</h2>
+            <h3>1. Objeto e Natureza do Produto</h3>
+            <p>Este site comercializa gomas funcionais contendo compostos ativos com propriedades hipoglicemiantes (que auxiliam na redução do açúcar no sangue). O usuário declara estar ciente de que o produto possui ação metabólica ativa e deve ser consumido com responsabilidade.</p>
+            <h3>2. Isenção de Responsabilidade Médica (Disclaimer)</h3>
+            <p>Não substitui Tratamento: Todo o conteúdo deste site, bem como os produtos comercializados, possuem caráter estritamente informativo e suplementar. Eles não substituem consultas médicas, diagnósticos, exames ou medicamentos prescritos.</p>
+            <p>Necessidade de Orientação Profissional: É de responsabilidade exclusiva do usuário consultar o médico endocrinologista ou nutricionista antes de iniciar o consumo das gomas. O profissional deve avaliar a compatibilidade do produto com os medicamentos e insulinas já utilizados pelo paciente.</p>
+            <p>Risco de Hipoglicemia: O usuário assume total responsabilidade pelo monitoramento de sua glicemia. A empresa não se responsabiliza por episódios de hipoglicemia causados pelo consumo inadequado, superdosagem ou falta de ajuste na medicação habitual do usuário.</p>
+            <h3>3. Elegibilidade e Triagem de Compatibilidade</h3>
+            <p>Questionário de Segurança: Para garantir a segurança dos consumidores, disponibilizamos um formulário de triagem de perfil. O usuário compromete-se a fornecer respostas verdadeiras e exatas sobre sua condição de saúde (como o tipo de diabetes).</p>
+            <p>Restrição de Uso: Perfis identificados como "Não Compatíveis" (como pacientes com Diabetes Tipo 1 ou sem acompanhamento médico) são expressamente orientados a não realizar a compra ou consumo sem autorização médica prévia e formal.</p>
+            <h3>4. Responsabilidade por Danos</h3>
+            <p id="separate">A empresa não será responsabilizada por quaisquer efeitos colaterais, reações adversas ou complicações de saúde decorrentes do uso do produto em desacordo com as instruções de rotulagem, com as advertências deste site ou sem a devida supervisão médica.</p>
+            <h2>Política de privacidade e Proteção de dados</h2>
+            <h3>1. Informações que coletamos</h3>
+            <p>Para processar suas compras e garantir sua segurança biológica, coletamos duas categorias de dados:</p>
+            <p>Dados Cadastrais e de Faturamento (Necessários para a Compra): Nome completo, CPF (obrigatório para emissão de Nota Fiscal), endereço de entrega, e-mail, telefone e dados de pagamento (cartão de crédito ou PIX, processados em ambiente criptografado e seguro).</p>
+            <p>Dados Sensíveis de Saúde (Questionário de Triagem): Respostas sobre o tipo de diabetes, acompanhamento médico, histórico de controle glicêmico e percepção de riscos.</p>
+            <h3>2. Finalidade do Tratamento de Dados </h3>
+            <p>Dados Cadastrais: Utilizados estritamente para faturamento, emissão de notas fiscais, envio das mercadorias via transportadora/Correios e comunicações sobre o status do pedido.</p>
+            <p>Dados de Saúde: Utilizados exclusivamente para avaliar a compatibilidade do usuário com a fórmula hipoglicemiante das gomas, bloqueando ou alertando perfis de risco em prol da segurança do próprio paciente. Estes dados nunca serão utilizados para traçar perfis comerciais comportamentais ou publicidade invasiva.</p>
+            <h3>3. Base legal e consentimento</h3>
+            <p>Ao preencher o formulário de saúde e prosseguir com a navegação ou compra, você fornece seu consentimento expresso e destacado (conforme exigido pela LGPD para dados sensíveis) para que possamos processar essas informações com o único fim de proteger sua integridade física e saúde.</p>
+            <h3>4. Compartilhamento e Segurança dos Dados</h3>
+            <p>Compartilhamento Limitado: Seus dados cadastrais de envio são compartilhados apenas com as empresas de logística parceiras e intermediadores de pagamento seguros. Seus dados de saúde jamais serão vendidos, trocados ou compartilhados com terceiros.</p>
+            <p id="separacao">Armazenamento Seguro: Adotamos protocolos rígidos de segurança digital (como criptografia SSL) para garantir que suas informações de saúde fiquem protegidas contra acessos não autorizados ou vazamentos.</p>
+            <div class="buttonandplay">
+                <div class="checkdiv" id="checkdivision">
+                    <input type="checkbox" name="okclick">Eu li e concordo com a política de privacidade e termos do uso da GlicoGummy.
+                </div>
+                <button class="submitbt2" id="submitbt2">Avançar</button>
+            </div>
+        </div>
+    </div>
+    <div class="lastmenssage" id="lastmenssage">
+        <h1>Tudo pronto!</h1>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://google.com" async defer></script>
+</body>
+</html>
