@@ -10,6 +10,14 @@ html{
     font-family: 'minhafonte';
     src: url(../fonte/Good-Times-Rg.woff);
 }
+@font-face {
+    font-family: 'minhafonte2';
+    src: url(../fonte/Super-Pandora.woff);
+}
+@font-face {
+    font-family: 'minhafonte3';
+    src: url(../fonte/Welcome-Darling.woff);
+}
 body{
     height: 100%;
     width: 100%;
@@ -19,7 +27,7 @@ body{
 
 
 .navbar{
-    height: 4em;
+    height: 10%;
     background-color: white;
     margin: 15px;
     border-radius: 15px;
@@ -66,5 +74,161 @@ body{
     transition: 0.6s;
     background-color: #1F3A5F;
     color: white;
+}
+
+.content1{
+    height: 80%;
+    display: flex;
+    position: relative;
+}
+
+.imgursos, .textcontet{
+    width: 50%;
+    height: 100%;
+}
+
+.imgursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgursos #ursos{
+    transform: translateX(-100%);
+    transition: transform 1.5s ease-in-out;
+}
+#ursos.movimento{
+    transform: translateX(0);
+}
+
+.content1 h1#ultratext{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'minhafonte';
+    color: white;
+}
+
+.initialcarousel{
+    margin-top: 70px;
+    width: 100%;
+    height: 60%;
+}
+
+#relative-text{
+    text-align: center;
+    color: white;
+    font-family: 'minhafonte2';
+    font-weight: normal;
+}
+
+.portal{
+    height: 15em;
+    overflow: hidden;
+    display: flex;
+}
+
+
+#reception{
+    font-family: 'minhafonte2';
+    font-size: larger;
+    color: white;
+    text-align: justify;
+    margin: 5px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.button button{
+    padding: 25px 55px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #5B8DEF;
+    color: white;
+    font-family: 'minhafonte3';
+    font-size: 1.5em;
+}
+
+.button button:hover{
+    transition: 0.8s;
+    background-color: #1F3A5F;
+
+}
+
+#ursofrutas{
+    transform: translateY(100%);
+    transition: transform 1.2s ease-in-out;
+}
+
+#ursofrutas.subirurso{
+    transform: translateY(0);
+}
+
+.nextcontent{
+    height: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.ursogigante, .conteudodevenda{
+    width: 50%;
+
+}
+.conteudovenda{
+    border: solid red 2px;
+    width: 50%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#ursogigante{
+    opacity: 0;
+    transition: opacity 0.7s ease-in-out;
+    position: relative;
+    top: 100px;
+}
+
+
+#ursogigante.aparecerursao{
+    opacity: 1;
+}
+
+img#imgurso{
+    position: relative;
+    top: 100px;
+}
+.carousel-container{
+    border: solid red 2px;
+    height: 18em;
+}
+
+.carousel-track{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.carousel-track-container{
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+    height: 100%;
+}
+.carousel-page{
+    min-width: 100%;
+    height: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product{
+    border: solid red 3px;
+    width: 25%;
+    height: 75%;
 }
 
